@@ -13,14 +13,11 @@ export default class Layout extends React.Component {
 
     openApp = () => {
         if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
-            console.log('instagram://user?username=shpitalniy');
-            window.location.replace("instagram://user?username=shpitalniy");
+            window.location.replace("instagram://user?username=bana.nana.ua");
         } else if (/Android/.test(navigator.userAgent)) {
-            console.log('intent://instagram.com/_u/shpitalniy/#Intent;package=com.instagram.android;scheme=https;end');
-            window.location.replace("intent://instagram.com/_u/shpitalniy/#Intent;package=com.instagram.android;scheme=https;end");
+            window.location.replace("intent://instagram.com/_u/bana.nana.ua/#Intent;package=com.instagram.android;scheme=https;end");
         } else {
-            console.log('https://www.instagram.com/shpitalniy');
-            window.location.replace("https://www.instagram.com/shpitalniy");
+            window.location.replace("https://www.instagram.com/bana.nana.ua");
         };
     }
 
