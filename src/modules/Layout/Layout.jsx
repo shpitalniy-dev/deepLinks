@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { App, Button } from './styledComponent';
+import logo from '../../../asserts/logo.jpg';
+import { App, Button, Name, Logo } from './styledComponent';
 
 export default class Layout extends React.Component {
     static propTypes = {
@@ -25,7 +26,9 @@ export default class Layout extends React.Component {
         return (
             <App>
                 <App.Component>
-                    <Button onClick={this.openApp}>Open in Instagram</Button>
+                    <Logo src={logo}></Logo>
+                    <Name>Бананки 🍌 Украина</Name>
+                    <Button onClick={this.openApp}>Открыть в Instagram</Button>
                 </App.Component>
             </App>
         )
