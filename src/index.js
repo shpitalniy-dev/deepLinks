@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Layout from "./modules/Layout/index";
+import Routing from "./modules/routing/index";
 import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./rootReducer/rootReducer";
-import rootSaga from './sagas/rootSaga.js';
 import createSagaMiddleware from 'redux-saga';
 import { createGlobalStyle } from "styled-components";
 
@@ -20,12 +19,11 @@ const GlobalStyle = createGlobalStyle`
         width: 100%;
     }
 `
-const sagaMiddleware = createSagaMiddleware();
-const store = createStore(rootReducer, applyMiddleware(sagaMiddleware));
-sagaMiddleware.run(rootSaga);
+
+const store = createStore(rootReducer);
 
 ReactDOM.render(
     <Provider store={store}>
-        <Layout />
+        <Routing />
         <GlobalStyle />
     </Provider>, document.getElementById("root"));

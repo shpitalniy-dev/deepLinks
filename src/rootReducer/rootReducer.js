@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import { ageReducer } from "./reducers/ageReducer";
+import { appReducer } from "./reducers/appReducer";
 
 export default combineReducers({
-    age: ageReducer,
+    app: appReducer,
 })
