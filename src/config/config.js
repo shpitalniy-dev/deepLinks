@@ -11,6 +11,10 @@ export default {
         {
             path: '/86f7e437f',
             account: 'bestsports_shop',
-        }
+        },
+        {
+            path: '/bccae0da2',
+            account: 'boutique_milashka2',
+        },
     ],
 }
