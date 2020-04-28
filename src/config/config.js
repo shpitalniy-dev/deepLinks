@@ -16,5 +16,9 @@ export default {
             path: '/bccae0da2',
             account: 'boutique_milashka2',
         },
+        {
+            path: '/91f3aaf90',
+            account: 'best_shop33.1',
+        },
     ],
 }
