@@ -20,5 +20,9 @@ export default {
             path: '/91f3aaf90',
             account: 'best_shop33.1',
         },
+        {
+            path: '/897d445f0',
+            account: 'kravaakula',
+        },
     ],
 }
