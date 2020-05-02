@@ -22,7 +22,7 @@ export default {
         },
         {
             path: '/897d445f0',
-            account: 'kravaakula',
+            account: 'kravasvetlana',
         },
     ],
 }
