@@ -24,5 +24,9 @@ export default {
             path: '/897d445f0',
             account: 'promebel.prom.ua',
         },
+        {
+            path: '/0aabe97d9',
+            account: 'boutique_milashka',
+        },
     ],
 }
