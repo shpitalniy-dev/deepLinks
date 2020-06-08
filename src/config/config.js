@@ -21,12 +21,8 @@ export default {
             account: 'best_shop33.1',
         },
         {
-            path: '/897d445f0',
-            account: 'promebel.prom.ua',
-        },
-        {
-            path: '/0aabe97d9',
-            account: 'boutique_milashka_',
-        },
+            path: '/d29ecd10a',
+            account: 'so.van_bag',
+        },  
     ],
 }
