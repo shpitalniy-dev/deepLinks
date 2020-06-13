@@ -23,6 +23,10 @@ export default {
         {
             path: '/d29ecd10a',
             account: 'so.van_bag',
-        },  
+        }, 
+        {
+            path: '/8jQfsgEOtv',
+            account: 'kravchenko_zp',
+        } 
     ],
 }
