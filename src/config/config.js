@@ -27,6 +27,10 @@ export default {
         {
             path: '/8jQfsgEOtv',
             account: 'kravchenko_zp',
-        } 
+        },
+        {
+            path: '/40c5bc706',
+            account: 'cat_house65',
+        },  
     ],
 }
