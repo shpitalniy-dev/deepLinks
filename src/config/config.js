@@ -25,7 +25,7 @@ export default {
             account: 'so.van_bag',
         }, 
         {
-            path: '/8jQfsgEOtv',
+            path: '/U2FsdGVkX',
             account: 'kravchenko_zp',
         },
         {
