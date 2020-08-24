@@ -32,5 +32,9 @@ export default {
             path: '/40c5bc706',
             account: 'cat_house65',
         },  
+        {
+            path: '/69cc8d29f',
+            account: 'domino.workshop',
+        }, 
     ],
 }
